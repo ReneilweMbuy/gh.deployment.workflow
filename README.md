@@ -1,15 +1,15 @@
-# gh.deployment.workflow
+# GitHub Pages Deployment
 
-A simple project that uses GitHub Action to deploy a static webite to GitHub pages.
+A simple GitHub Actions workflow that deploys a static website to GitHub Pages whenever `index.html` changes on the `main` branch.
 
-# # gh-deployment-workflow
+Project URL: https://roadmap.sh/projects/github-actions-deployment-workflow
 
-A simple project that uses GitHub Actions to deploy a static website to GitHub Pages.
+## Live Site
+
+https://reneilwembuy.github.io/gh.deployment.workflow/
 
 ## How it works
 
-Every push to the `main` branch that changes `index.html` triggers the workflow in `.github/workflows/deploy.yml`, which deploys the site to GitHub Pages.
-
-## Live site
-
-https://<username>.github.io/gh-deployment-workflow/
+- The workflow lives in `.github/workflows/deploy.yml`
+- Every push to `main` that changes `index.html` triggers a deployment
+- The site is published to GitHub Pages automatically
